@@ -1,0 +1,25 @@
+{
+	"user": "blefonix",
+	"repo": "brpsa-template",
+	"entry": "Template.pwn",
+	"output": "..//..//filterscripts//Template.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"build": {
+		"name": "main",
+		"args": [
+			"-;+",
+			"-(+",
+			"-\\+",
+			"-d3",
+			"-Z+"
+		],
+		"includes": [
+			"..//..//libraries"
+		],
+		"compiler": {
+			"version": "3.10.10"
+		}
+	}
+}
